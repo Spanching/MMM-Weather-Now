@@ -151,7 +151,7 @@ Module.register('MMM-Weather-Now', {
 	            nowTempDiv = document.createElement('div');
 	            nowTempDiv.className = 'nowTemp bright';
 	            if (this.units === 'M') {
-					nowTempDiv.innerHTML = this.translate('FEELS_LIKE') + ' ' + C + '&deg; C (' + F + '&deg; F)';
+					nowTempDiv.innerHTML = this.translate('FEELS_LIKE') + ' ' + C + '&deg; C';
 	            } else {
 	                nowTempDiv.innerHTML = this.translate('FEELS_LIKE') + ' ' + F + '&deg; F (' + C + '&deg; C)';
 	                }
