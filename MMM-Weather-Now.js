@@ -146,6 +146,11 @@ Module.register('MMM-Weather-Now', {
 
 	            nowTextDiv = document.createElement('div');
 	            nowTextDiv.className = 'nowText bright';
+				const nowWeatherArr = this.nowWeather.split(" ");
+				for (var i = 0; i < arr.length; i++) {
+					nowWeatherArr[i] = nowWeatherArr[i].charAt(0).toUpperCase() + nowWeatherArr[i].slice(1);
+				}
+				this.nowWeather = nowWeatherArr.join(" ");
 	            nowTextDiv.innerHTML = this.nowWeather;
 
 	            nowTempDiv = document.createElement('div');
