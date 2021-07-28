@@ -103,7 +103,7 @@ Module.register('MMM-Weather-Now', {
 
 				nowTextCell = document.createElement('td');
 				nowTextCell.className = 'nowText2';
-				nowTextCell.innerHTML = this.nowWeather;
+				nowTextCell.innerHTML = "TEST3";
 
 				nowTempDegCell = document.createElement('td');
 				nowTempDegCell.className = 'nowTempDeg2';
@@ -146,7 +146,7 @@ Module.register('MMM-Weather-Now', {
 
 	            nowTextDiv = document.createElement('div');
 	            nowTextDiv.className = 'nowText bright';
-	            nowTextDiv.innerHTML = this.nowWeather.toUpperCase();
+	            nowTextDiv.innerHTML = "TEST";
 
 	            nowTempDiv = document.createElement('div');
 	            nowTempDiv.className = 'nowTemp bright';
