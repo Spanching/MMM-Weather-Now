@@ -43,6 +43,7 @@ Module.register('MMM-Weather-Now', {
     getTranslations: function() {
         return  {
 				da: 'translations/da.json',
+				de: 'translations/de.json',
                 en: 'translations/en.json',
 				es: 'translations/es.json',
 				nb:	'translations/nb.json',
