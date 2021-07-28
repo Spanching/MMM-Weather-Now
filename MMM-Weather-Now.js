@@ -146,7 +146,7 @@ Module.register('MMM-Weather-Now', {
 
 	            nowTextDiv = document.createElement('div');
 	            nowTextDiv.className = 'nowText bright';
-	            nowTextDiv.innerHTML = "TEST";
+	            nowTextDiv.innerHTML = this.nowWeather;
 
 	            nowTempDiv = document.createElement('div');
 	            nowTempDiv.className = 'nowTemp bright';
